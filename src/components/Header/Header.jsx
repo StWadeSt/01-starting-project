@@ -11,7 +11,7 @@ function genRandomInt(max){
 const Header = () => {
    const desc = reactDescriptions[genRandomInt(2)]
   return (
-    <div>
+    <div className='header'>
         <img src={srcImage} alt="Stylized atom" />
         <h1>React Essentials</h1>
         <p>
