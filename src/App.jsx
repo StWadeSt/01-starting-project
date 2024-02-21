@@ -19,16 +19,17 @@ function App() {
     <div>
       <Header/>
       <main>
-        <section id="core-cencepts">
+        <section id="core-concepts">
           <h2>Core Concepts</h2>
           <ul>
             {CORE_CONCEPTS.map((item) => 
-            <CoreConcept 
+            <li><CoreConcept 
             key = {item.image}
             title={item.title}
             description= {item.description}
             img= {item.image}
               />
+            </li>
             )}
           </ul>
           {/* <ul> 

@@ -47,17 +47,17 @@ main h2 {
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
-  justify-content:space-evenly;
+  justify-content: center;
 }
 
 #core-concepts li {
-  width: 5rem;
+  width: 10rem;
   text-align: center;
 }
 
 #core-concepts li img {
-  height: 1rem;
-  width: rem;
+  height: 4rem;
+  width: 6rem;
   object-fit: cover;
 }
 
